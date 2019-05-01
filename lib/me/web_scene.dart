@@ -6,7 +6,7 @@ class WebScene extends StatefulWidget {
   final String url;
   final String title;
 
-  WebScene({@required this.url, this.title});
+  WebScene({this.url, this.title});
 
   @override
   _WebSceneState createState() => _WebSceneState();
